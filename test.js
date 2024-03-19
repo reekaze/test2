@@ -18,4 +18,4 @@ fetch(API_URL)
       }
     }
   })
-  .catch((error) => console.error("Something wrent wrong", error));
+  .catch((error) => console.error("Something went wrong", error));
