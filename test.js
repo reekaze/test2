@@ -1,7 +1,7 @@
 import moment from "moment";
 
 const API_URL =
-  "https://api.openweathermap.org/data/2.5/forecast?lat=6.200000&lon=106.8166661&appid=5f242829c6e5da00eb4673068a27fed5&units=metric";
+  "https://api.openweathermap.org/data/2.5/forecast?lat=-6.200000&lon=106.816666&appid=5f242829c6e5da00eb4673068a27fed5&units=metric";
 
 fetch(API_URL)
   .then((response) => response.json())
